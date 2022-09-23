@@ -1,4 +1,4 @@
-[![build status](https://github.com/mitre-attack/attack-navigator/workflows/Build/badge.svg)](https://github.com/mitre-attack/attack-navigator/actions)
+[![build status](https://github.com/center-for-threat-informed-defense/attack-navigator/actions/workflows/publish.yml/badge.svg)](https://github.com/center-for-threat-informed-defense/attack-navigator/actions)
 
 > **This repository is a fork** of the official [MITRE ATT&CK™️
 > Navigator](https://github.com/mitre-attack/attack-navigator) repository that

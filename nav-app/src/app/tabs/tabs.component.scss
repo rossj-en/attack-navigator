@@ -133,10 +133,16 @@
         text-align: center;
         a {
             text-decoration: none;
-            color: rgb(176, 26, 26);
+            color: #6241C5;
             font-weight:500;
         }
         font-size: 1em;
+    }
+    .ctid {
+        border: 3px solid #2B1972;
+        background-color: #eee;
+        padding: 1em;
+        margin: 1em;
     }
 }
 
