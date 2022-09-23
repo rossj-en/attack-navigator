@@ -1,5 +1,14 @@
 [![build status](https://github.com/mitre-attack/attack-navigator/workflows/Build/badge.svg)](https://github.com/mitre-attack/attack-navigator/actions)
 
+> **This repository is a fork** of the official [MITRE ATT&CK™️
+> Navigator](https://github.com/mitre-attack/attack-navigator) repository that
+> is customized for holding the [Defending IAAS with
+> ATT&CK](https://github.com/center-for-threat-informed-defense/defending-iaas-with-attack)
+> collection. For more information see [FORK.md](./FORK.md).
+>
+> This instance is published at
+> https://center-for-threat-informed-defense.github.io/diwa-navigator/.
+
 # ATT&CK® Navigator
 
 The ATT&CK Navigator is designed to provide basic navigation and annotation of [ATT&CK](https://attack.mitre.org) matrices, something that people are already doing today in tools like Excel.  We've designed it to be simple and generic - you can use the Navigator to visualize your defensive coverage, your red/blue team planning, the frequency of detected techniques or anything else you want to do.  The Navigator doesn't care - it just allows you to manipulate the cells in the matrix (color coding, adding a comment, assigning a numerical value, etc.).  We thought having a simple tool that everyone could use to visualize the matrix would help make it easy to use ATT&CK.
@@ -15,9 +24,9 @@ Version 4.0 of the ATT&CK Navigator supports all ATT&CK domains in a single inst
 Additionally, older versions of ATT&CK can now be loaded in the application. The ATT&CK Navigator supports ATT&CK versions 8, 7, 6, 5, and 4. Older versions do not work in the application since their data model is too outdated.
 
 Previous versions of the Navigator application are also hosted via GitHub Pages for users who want a more classic experience:
-| ATT&CK Version | Navigator Version | Domains | |
-|:---------------|:------------------|:--------|-|
-| [ATT&CK v7.2](https://attack.mitre.org/resources/versions/) | [Navigator v3.1](https://github.com/mitre-attack/attack-navigator/releases/tag/v3.1) | [Enterprise](https://mitre-attack.github.io/attack-navigator/v3/enterprise/) | [Mobile](https://mitre-attack.github.io/attack-navigator/v3/mobile/) |
+| ATT&CK Version                                              | Navigator Version                                                                        | Domains                                                                      |                                                                      |
+| :---------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [ATT&CK v7.2](https://attack.mitre.org/resources/versions/) | [Navigator v3.1](https://github.com/mitre-attack/attack-navigator/releases/tag/v3.1)     | [Enterprise](https://mitre-attack.github.io/attack-navigator/v3/enterprise/) | [Mobile](https://mitre-attack.github.io/attack-navigator/v3/mobile/) |
 | [ATT&CK v6.3](https://attack.mitre.org/resources/versions/) | [Navigator v2.3.2](https://github.com/mitre-attack/attack-navigator/releases/tag/v2.3.2) | [Enterprise](https://mitre-attack.github.io/attack-navigator/v2/enterprise/) | [Mobile](https://mitre-attack.github.io/attack-navigator/v2/mobile/) |
 
 Please see [Install and Run](#Install-and-Run) for information on how to get the ATT&CK Navigator set up locally.
@@ -189,7 +198,7 @@ Local files to load should be placed in the `nav-app/src/assets/` directory.
    "default_layers": {
         "enabled": true,
         "urls": [
-            "assets/example.json", 
+            "assets/example.json",
             "https://raw.githubusercontent.com/mitre-attack/attack-navigator/master/layers/data/samples/Bear_APT.json"
         ]
     }
