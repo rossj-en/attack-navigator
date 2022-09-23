@@ -33,6 +33,7 @@ The forked repo is customized in the following ways:
    that this is not the main navigator instance.
 7. Edit `tabs.component.scss` with a color schema that also highlights the
    difference between this and the main instance.
+8. Set the base HREF in `index.html` to match our GitHub Pages URL.
 
 Whenever you edit this repository, make sure to maintain the list above. This
 list makes it easier to understand where merge conflicts *can* happen.
