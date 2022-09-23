@@ -29,6 +29,10 @@ The forked repo is customized in the following ways:
 4. A GitHub Actions workflow `.github/workflows/publish.yml` to automate builds
    and deploy.
 5. Add `.vscode/settings.json` to disable auto-formatting in Visual Studio Code.
+6. Edit `tabs.component.html` with some explanatory text so users understand
+   that this is not the main navigator instance.
+7. Edit `tabs.component.scss` with a color schema that also highlights the
+   difference between this and the main instance.
 
 Whenever you edit this repository, make sure to maintain the list above. This
 list makes it easier to understand where merge conflicts *can* happen.
