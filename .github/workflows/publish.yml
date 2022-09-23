@@ -2,7 +2,7 @@ name: publish
 
 on:
   push:
-    branches: [main, customize-diwa]
+    branches: [main]
 
 jobs:
   navigator:
