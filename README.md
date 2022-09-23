@@ -7,7 +7,7 @@
 > collection. For more information see [FORK.md](./FORK.md).
 >
 > This instance is published at
-> https://center-for-threat-informed-defense.github.io/diwa-navigator/.
+> https://center-for-threat-informed-defense.github.io/attack-navigator/.
 
 # ATT&CK® Navigator
 
