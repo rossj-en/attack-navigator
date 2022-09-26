@@ -133,17 +133,48 @@
         text-align: center;
         a {
             text-decoration: none;
-            color: #6241C5;
             font-weight:500;
         }
         font-size: 1em;
     }
-    .ctid {
-        border: 3px solid #2B1972;
-        background-color: #eee;
-        padding: 1em;
-        margin: 1em;
+}
+
+.theme-override-light {
+  h1 {
+    color: #6241C5;
+  }
+
+  .description {
+    .logo a {
+      color: #39434C;
     }
+    a {
+      color: #6241C5;
+    }
+  }
+
+  .newTab strong.ctid, .newTab strong.ctid a {
+    color: #6241C5;
+  }
+}
+
+.theme-override-dark {
+  h1 {
+    color: #726DE2;
+  }
+
+  .description {
+    .logo a {
+      color: #ccc;
+    }
+    a {
+      color: #726DE2;
+    }
+  }
+
+  .newTab strong.ctid, .newTab strong.ctid a {
+    color: #726DE2;
+  }
 }
 
 .layerOpTable {
