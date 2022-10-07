@@ -7,7 +7,7 @@
                 {
                     "name": "DIWA",
                     "identifier": "enterprise-attack",
-                    "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v11.3/enterprise-attack/enterprise-attack.json"]
+                    "data": ["https://raw.githubusercontent.com/center-for-threat-informed-defense/defending-iaas-with-attack/main/data/defending-iaas-0.1.json"]
                 },
                 {
                     "name": "Enterprise",
