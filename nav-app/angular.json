@@ -22,7 +22,9 @@
               { "glob": "*.md", "input": "../", "output": "/" },
               { "glob": "*.md", "input": "../layers", "output": "/layers" },
               "src/assets",
-              "src/favicon.ico"
+              "src/favicon.png",
+              "src/ctid-light.png",
+              "src/ctid-dark.png"
             ],
             "styles": [
               "src/styles.scss",
@@ -99,7 +101,9 @@
             ],
             "assets": [
               "src/assets",
-              "src/favicon.ico"
+              "src/favicon.png",
+              "src/ctid-light.png",
+              "src/ctid-dark.png"
             ]
           }
         },

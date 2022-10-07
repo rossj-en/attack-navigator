@@ -139,6 +139,11 @@
     }
 }
 
+.logo img.ctid-light, .logo img.ctid-dark {
+  max-width: 35em;
+  margin-bottom: 1em;
+}
+
 .theme-override-light {
   h1 {
     color: #6241C5;
@@ -148,6 +153,10 @@
     .logo a {
       color: #39434C;
     }
+    .logo img.ctid-dark {
+      display: none;
+    }
+    .logo img.ctid-
     a {
       color: #6241C5;
     }
@@ -166,6 +175,9 @@
   .description {
     .logo a {
       color: #ccc;
+    }
+    .logo img.ctid-light {
+      display: none;
     }
     a {
       color: #726DE2;
